@@ -88,6 +88,14 @@
     <Compile Include="Migrations\201904290708225_RenamePopulationToPopulationUpInCountriesTable.Designer.cs">
       <DependentUpon>201904290708225_RenamePopulationToPopulationUpInCountriesTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904290717263_DeletePopulationUpColumnInCountriesTable.cs" />
+    <Compile Include="Migrations\201904290717263_DeletePopulationUpColumnInCountriesTable.Designer.cs">
+      <DependentUpon>201904290717263_DeletePopulationUpColumnInCountriesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904290719304_DeleteCountriesTable.cs" />
+    <Compile Include="Migrations\201904290719304_DeleteCountriesTable.Designer.cs">
+      <DependentUpon>201904290719304_DeleteCountriesTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerAdress.cs" />
@@ -127,6 +135,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904290708225_RenamePopulationToPopulationUpInCountriesTable.resx">
       <DependentUpon>201904290708225_RenamePopulationToPopulationUpInCountriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904290717263_DeletePopulationUpColumnInCountriesTable.resx">
+      <DependentUpon>201904290717263_DeletePopulationUpColumnInCountriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904290719304_DeleteCountriesTable.resx">
+      <DependentUpon>201904290719304_DeleteCountriesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

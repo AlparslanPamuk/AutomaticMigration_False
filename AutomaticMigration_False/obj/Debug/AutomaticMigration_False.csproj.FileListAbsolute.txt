@@ -20,3 +20,5 @@ C:\Users\alp_g\OneDrive\Desktop\C2\AutomaticMigration_False\AutomaticMigration_F
 C:\Users\alp_g\OneDrive\Desktop\C2\AutomaticMigration_False\AutomaticMigration_False\obj\Debug\AutomaticMigration_False.Migrations.CreateCountryColumnInTeamsTable.resources
 C:\Users\alp_g\OneDrive\Desktop\C2\AutomaticMigration_False\AutomaticMigration_False\obj\Debug\AutomaticMigration_False.Migrations.CreatePopulationColumnInCountriesTable.resources
 C:\Users\alp_g\OneDrive\Desktop\C2\AutomaticMigration_False\AutomaticMigration_False\obj\Debug\AutomaticMigration_False.Migrations.RenamePopulationToPopulationUpInCountriesTable.resources
+C:\Users\alp_g\OneDrive\Desktop\C2\AutomaticMigration_False\AutomaticMigration_False\obj\Debug\AutomaticMigration_False.Migrations.DeletePopulationUpColumnInCountriesTable.resources
+C:\Users\alp_g\OneDrive\Desktop\C2\AutomaticMigration_False\AutomaticMigration_False\obj\Debug\AutomaticMigration_False.Migrations.DeleteCountriesTable.resources

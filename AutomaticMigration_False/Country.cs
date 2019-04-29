@@ -10,7 +10,7 @@ namespace AutomaticMigration_False
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int PopulationUp { get; set; }
+        
         public ICollection<Team> Teams { get; set; }
     }
 }
