@@ -10,5 +10,6 @@ namespace AutomaticMigration_False
 
         public ICollection<Player> Players { get; set; }
         public ICollection<Sponsor> Sponsors { get; set; }
+        public Country Country { get; set; }
     }
 }

@@ -8,6 +8,7 @@ namespace AutomaticMigration_False
         public DbSet<Player> Players { get; set; }
         public DbSet<PlayerAdress> Adresses { get; set; }
         public DbSet<Sponsor> Sponsors { get; set; }
+        public DbSet<Country> Countries { get; set; }
 
         public FootballDbContext() : base("FootballDbConStr")
         {

@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Country.cs" />
     <Compile Include="FootballDbContext.cs" />
     <Compile Include="Migrations\201904261325436_CreateTeamsTable.cs" />
     <Compile Include="Migrations\201904261325436_CreateTeamsTable.Designer.cs">
@@ -70,6 +71,22 @@
     <Compile Include="Migrations\201904261407462_CreateSponsorTable.cs" />
     <Compile Include="Migrations\201904261407462_CreateSponsorTable.Designer.cs">
       <DependentUpon>201904261407462_CreateSponsorTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904290652242_CreateCountriesTable.cs" />
+    <Compile Include="Migrations\201904290652242_CreateCountriesTable.Designer.cs">
+      <DependentUpon>201904290652242_CreateCountriesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904290658379_CreateCountryColumnInTeamsTable.cs" />
+    <Compile Include="Migrations\201904290658379_CreateCountryColumnInTeamsTable.Designer.cs">
+      <DependentUpon>201904290658379_CreateCountryColumnInTeamsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904290702548_CreatePopulationColumnInCountriesTable.cs" />
+    <Compile Include="Migrations\201904290702548_CreatePopulationColumnInCountriesTable.Designer.cs">
+      <DependentUpon>201904290702548_CreatePopulationColumnInCountriesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201904290708225_RenamePopulationToPopulationUpInCountriesTable.cs" />
+    <Compile Include="Migrations\201904290708225_RenamePopulationToPopulationUpInCountriesTable.Designer.cs">
+      <DependentUpon>201904290708225_RenamePopulationToPopulationUpInCountriesTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Player.cs" />
@@ -98,6 +115,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904261407462_CreateSponsorTable.resx">
       <DependentUpon>201904261407462_CreateSponsorTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904290652242_CreateCountriesTable.resx">
+      <DependentUpon>201904290652242_CreateCountriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904290658379_CreateCountryColumnInTeamsTable.resx">
+      <DependentUpon>201904290658379_CreateCountryColumnInTeamsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904290702548_CreatePopulationColumnInCountriesTable.resx">
+      <DependentUpon>201904290702548_CreatePopulationColumnInCountriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904290708225_RenamePopulationToPopulationUpInCountriesTable.resx">
+      <DependentUpon>201904290708225_RenamePopulationToPopulationUpInCountriesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
